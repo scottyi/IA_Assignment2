@@ -1,3 +1,8 @@
+'''NAMES OF THE AUTHOR(S):
+Scott IVINZA MBE
+Jos ZIGABE '''
+# coding: utf-8
+
 from copy import deepcopy
 import math
 from utils import *
