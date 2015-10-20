@@ -315,7 +315,10 @@ class State:
 
 
 # Launch the search
-problem=Sokoban(sys.argv[1], sys.argv[2])
+instance = sys.argv[1]
+init = instance+".init"
+goal = instance+".goal"
+problem=Sokoban(init, goal)
 node=problem.astar_graph_search()
 path=node.path()
 path.reverse()
